@@ -1,0 +1,157 @@
+body {
+  width: 1600px; }
+  body .header .logo {
+    float: left;
+    width: 185px; }
+    body .header .logo img {
+      margin-left: 180px;
+      margin-top: 20px; }
+  body .header .right {
+    float: right;
+    width: 1405px;
+    margin-top: 10px;
+    padding-right: 200px; }
+    body .header .right .right1 {
+      float: left;
+      width: 680px;
+      margin-left: 150px;
+      padding-left: 500px; }
+      body .header .right .right1 img {
+        float: left;
+        margin-top: 10px;
+        magrin-right: 5px; }
+      body .header .right .right1 .numbercolor {
+        color: #ffa800; }
+    body .header .right .right2 {
+      float: right;
+      width: 315px; }
+      body .header .right .right2 .numbercolor {
+        color: #ffa800; }
+      body .header .right .right2 img {
+        float: left;
+        margin-top: 10px;
+        magrin-right: 5px; }
+    body .header .right .navbar-nav {
+      float: right;
+      padding-left: 150px; }
+    body .header .right .navbar-nav li {
+      padding-left: 45px; }
+  body .banner {
+    background: url(../img/banner.jpg);
+    width: 100%;
+    height: 180px;
+    margin-top: 10px; }
+    body .banner .h41 {
+      padding-top: 40px;
+      margin-left: 210px;
+      position: absolute;
+      color: #fff;
+      font-size: 36px; }
+    body .banner .h42 {
+      margin-top: 100px;
+      margin-left: 450px;
+      position: absolute;
+      color: #fff;
+      font-size: 36px; }
+  body .main {
+    width: 1240px;
+    margin-left: 180px; }
+    body .main .container {
+      width: 1240px;
+      box-sizing: content-box; }
+      body .main .container .tour {
+        width: 1240px; }
+        body .main .container .tour .tour1 {
+          width: 400px;
+          float: left;
+          position: relative;
+          magrin-bottom: 50px; }
+          body .main .container .tour .tour1 img {
+            width: 100%;
+            height: 120px; }
+          body .main .container .tour .tour1 h4 {
+            position: absolute;
+            padding-left: 100px;
+            padding-top: 30px;
+            color: #FFFFFF; }
+  body section {
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto; }
+    body section .content-tour {
+      float: right;
+      position: relative;
+      padding-bottom: 20px; }
+      body section .content-tour .img-tour {
+        position: relative;
+        width: 400px;
+        height: 120px;
+        margin-right: 10px; }
+      body section .content-tour .text-tour {
+        position: absolute;
+        top: 40px;
+        left: 90px;
+        font-size: 24px;
+        color: #fff;
+        text-transform: uppercase;
+        z-index: 1; }
+    body section .place-travel .content-travel {
+      float: right;
+      margin-right: 11px;
+      border: 1px solid #e3e3e3;
+      border-radius: 3%;
+      margin-bottom: 20px; }
+      body section .place-travel .content-travel .img-travel {
+        height: 210px;
+        width: 295px; }
+      body section .place-travel .content-travel .text-travel {
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-left: 10px;
+        padding-top: 10px; }
+      body section .place-travel .content-travel .price-tour {
+        color: #0ec0ee;
+        font-weight: bold; }
+      body section .place-travel .content-travel p {
+        padding-left: 10px; }
+  body .footer {
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+    border-top: 1px solid #e3e3e3; }
+    body .footer .footer-top .footer-logo {
+      float: left;
+      width: 300px; }
+    body .footer .footer-top .info {
+      width: 280px;
+      float: left; }
+      body .footer .footer-top .info ul {
+        padding-left: 0px; }
+    body .footer .footer-top .contact {
+      width: 210px;
+      float: left; }
+      body .footer .footer-top .contact img {
+        height: 20px;
+        width: 20px; }
+      body .footer .footer-top .contact ul {
+        padding-left: 0px; }
+      body .footer .footer-top .contact ul li {
+        padding-top: 5px; }
+    body .footer .footer-top .mail {
+      float: right;
+      width: 450px;
+      padding-right: 0px; }
+      body .footer .footer-top .mail img {
+        height: 50px; }
+  body .footer-boton .bottom-1 {
+    float: left; }
+  body .footer-boton .bottom-2 {
+    float: right;
+    padding: 0px; }
+
+ul li {
+  list-style: none; }
+
+/*# sourceMappingURL=style.css.map */
