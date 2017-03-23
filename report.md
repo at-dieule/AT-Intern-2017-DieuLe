@@ -16,6 +16,10 @@ Report
  //demo
  alert('hello');
 
+ var a =2;
+ var b = 'a';
+ var c =a+b;
+
 </script>
 
 
