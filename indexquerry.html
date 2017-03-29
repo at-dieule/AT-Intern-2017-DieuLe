@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<style type="text/css">
+		li{
+			width: 300px;
+
+		}
+		.del {
+			float: right;
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<input type="text" value="name" id="name" />
+
+
+	<input type="submit" value="Add more to list" id="submit" ">
+	
+
+	<ul id="lists">
+		
+
+	</ul> 
+	<script type="text/javascript">
+		var tvname =$('#name');
+		var sumbit = $('#submit');
+		var lists = $('#lists');
+
+		sumbit.click(function(){
+			var name = tvname.val();
+			var del = '<button class="del">Delete</button>';
+			lists.append('<p>'+'<li>' + name +del  +'</li>');
+			
+			$('.del').click(function(){
+				$(this).parent().remove();	
+				
+		});
+		});
+
+	</script>
+</body>
+</html>
