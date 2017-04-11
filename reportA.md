@@ -4,9 +4,9 @@ BT Angula
 	TypeScript:  a language for application-scale JavaScript,convert ES6 about ES5
 	Because: TypeScript is free,it  supports tools for large-scale JavaScript applications for any browser
 2. How can you get TypeScript and install it?
-	```npm install -g typescript
+	```js npm install -g typescript
 3. How do you compile TypeScript files?
-	```tsc --watch base.ts base.js
+	```js tsc --watch base.ts base.js
 4. Which Object Oriented terms are supported by TypeScript? Write an example.
 	Inheritance:
 ```js
