@@ -2,7 +2,7 @@ Exercise Angular 3
 
 
 1. What is Component decorator in Angular 2?
-	```js  s the component metatdata
+	```js  is the component metatdata
 
 	selector - css selector that identifies this component in a template
 	styleUrls - list of urls to stylesheets to be applied to this component's view
@@ -11,7 +11,7 @@ Exercise Angular 3
 	
 	What does @Component decorator do?
 
-	```js Marks a class as an Angular component and collects component configuration metadata.
+	js Marks a class as an Angular component and collects component configuration metadata.
 
 2. What is @Directive decorator in Angular 2?
 	```js change the structure of the view
