@@ -16,13 +16,13 @@ Exercise Angular 3
 2. What is @Directive decorator in Angular 2?
 	```js change the structure of the view
 	What does @Directive decorator do?
-	```js exportAs - name under which the component instance is exported in a template
-	```js host - map of class property to host element bindings for events, properties and attributes
-	```js inputs - list of class property names to data-bind as component inputs
-	```js outputs - list of class property names that expose output events that others can subscribe to
-	```js providers - list of providers available to this component and its children
-	```js queries - configure queries that can be injected into the component
-	```js selector - css selector that identifies this component in a template
+	 exportAs - name under which the component instance is exported in a template
+	 host - map of class property to host element bindings for events, properties and attributes
+	inputs - list of class property names to data-bind as component inputs
+	outputs - list of class property names that expose output events that others can subscribe to
+	providers - list of providers available to this component and its children
+	queries - configure queries that can be injected into the component
+	selector - css selector that identifies this component in a template
 
 Summary
 	1. Explain @Input decorator in Angular 2?
@@ -34,7 +34,7 @@ Summary
 
 	```js  import {Component} from '@angular/core';
 
-@Component({
+```js@Component({
     selector : 'my-app',
     template : `
     <h2>Exercise </h2>
