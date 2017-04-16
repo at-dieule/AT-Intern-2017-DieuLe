@@ -41,9 +41,8 @@ Summary
     <input type="text" [(ngModel)] = "name" />
     <p>{{angular}} hello {{name}}</p>
     `,
-
-	})
- 	export class Component {
+})
+ export class Component {
 
     public angular = 'Angular 2';
  	}
